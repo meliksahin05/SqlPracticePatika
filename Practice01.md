@@ -13,8 +13,8 @@
 
  4-) What is the value in the last_name column of the customer whose value in the first_name column in the customer table is 'Mary'
  
-   SELECT last_name FROM customer WHERE first_name = \'91Mary\'92;\
+   SELECT last_name FROM customer WHERE first_name = 'Mary';
 
 5-) Sort the data in the movie table that does NOT have a length greater than 50 and does NOT have a rental_rate of 2.99 or 4.99.
 
-   SELECT * FROM movie WHERE length<=50 AND (rental_rate <> 2.99 AND rental_rate <> 4.99);\
+   SELECT * FROM movie WHERE length<=50 AND (rental_rate <> 2.99 AND rental_rate <> 4.99);
