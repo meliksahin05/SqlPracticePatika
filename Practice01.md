@@ -9,7 +9,7 @@
 
  3-) Sort the data in all columns in the movie table with the conditions rental_rate 0.99 AND replacement_cost 12.99 OR 28.99.
  
-  SELECT * FROM movie WHERE rental_rate= 0.99 AND (replacement_cost= 12.99 OR \cf2 replacement_cost= 28.99);
+  SELECT * FROM movie WHERE rental_rate= 0.99 AND (replacement_cost= 12.99 OR replacement_cost= 28.99);
 
  4-) What is the value in the last_name column of the customer whose value in the first_name column in the customer table is 'Mary'
  
